@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(zorrofondo.jpg);
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: orangered;
+    padding: 10px;
+  }
+  
+  .izquierda, .centro, .derecha {
+    color: #000;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+  }
+  
+  .izquierda {
+    position: relative;
+    left: 0;
+  }
+  
+  .centro {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .derecha {
+    position: relative;
+    right: 0;
+  }
+  

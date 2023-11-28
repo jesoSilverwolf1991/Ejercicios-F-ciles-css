@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contenedor {
+    overflow: hidden; 
+  }
+  
+  .caja {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: #f39c12;
+    margin-right: 10px; 
+  }
+  
